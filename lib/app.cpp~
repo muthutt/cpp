@@ -1,0 +1,5 @@
+#include "app.hpp"
+
+std::size_t App::length() {
+    return m_name.length();
+}
